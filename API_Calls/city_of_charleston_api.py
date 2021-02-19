@@ -13,3 +13,5 @@ zoning_data = requests.get(zoning_geojson_url)
 
 print(zoning_data.json().keys())
 print(zoning_data.json()['features'][0])
+
+#This script will pull various data items of the City of charleston GIS page in GeoJSON format using their API
